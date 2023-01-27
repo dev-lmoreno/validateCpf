@@ -1,8 +1,3 @@
-# validateCpf
-# Artigo: [dev.to](https://dev.to/devlmoreno/php-verificar-se-o-cpf-e-valido-2hd8)
-
-# Código
-```
 <?php
 
 $cpf = (string) 74305429055;
@@ -58,5 +53,3 @@ echo "\nValor do segundo dígito verificador: $secondVerifiedDigit\n";
 // adicionando o segundo digito verificador ao final do cpf
 $cpfValid = $cpfWithFirstDigit . $secondVerifiedDigit;
 echo "\nCPF: $cpfValid\n";
-
-```
